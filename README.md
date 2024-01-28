@@ -53,8 +53,9 @@ Text Preprocessing: Applies NLTK lemmatization to the product descriptions.
 TF-IDF Vectorization: Transforms text data into a TF-IDF matrix.
 Cosine Similarity: Calculates similarity scores between products.
 Recommendation Function: get_recommendations function to provide product recommendations.
-Contributions
+
+# Contributions
 Your contributions, issues, and feature requests are welcome. Feel free to check the issues page for contribution opportunities.
 
-License
+# License
 This project is licensed under the MIT License
