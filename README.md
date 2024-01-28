@@ -29,30 +29,30 @@ You can install these packages using pip:
 
 # How to Use
 Load the e-commerce dataset into a pandas DataFrame:
-
-python
-Copy code
+<pre lang="no-highlight"><code>
 import pandas as pd
 
 file_path = 'path_to_your_dataset.csv'  # Update with your dataset path
 df = pd.read_csv(file_path)
+</code></pre>
+
 Execute the script to preprocess the data and initialize the recommendation engine.
 
 To get recommendations:
-
-python
-Copy code
+<pre lang="no-highlight"><code>
 product_name = "Enter a Product Name Here"  # Use an actual product name from your dataset
 recommendations = get_recommendations(product_name)
 print(recommendations)
-Code Structure
+</code></pre>
+
+# Code Structure
 The repository is organized as follows:
 
-Data Cleaning: Handles missing values and unnecessary columns.
-Text Preprocessing: Applies NLTK lemmatization to the product descriptions.
-TF-IDF Vectorization: Transforms text data into a TF-IDF matrix.
-Cosine Similarity: Calculates similarity scores between products.
-Recommendation Function: get_recommendations function to provide product recommendations.
+- Data Cleaning: Handles missing values and unnecessary columns.
+- Text Preprocessing: Applies NLTK lemmatization to the product descriptions.
+- TF-IDF Vectorization: Transforms text data into a TF-IDF matrix.
+- Cosine Similarity: Calculates similarity scores between products.
+- Recommendation Function: get_recommendations function to provide product recommendations.
 
 # Contributions
 Your contributions, issues, and feature requests are welcome. Feel free to check the issues page for contribution opportunities.
