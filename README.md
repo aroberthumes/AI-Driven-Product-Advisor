@@ -19,15 +19,16 @@ Clone the repository:
 # Dependencies
 Ensure you have the following Python packages installed:
 
-pandas
-scikit-learn
-nltk
+- pandas
+- scikit-learn
+- nltk
+
 You can install these packages using pip:
 
-Copy code
-pip install pandas scikit-learn nltk
-How to Use
-Load your e-commerce dataset into a pandas DataFrame:
+<pre lang="no-highlight"><code>pip install pandas scikit-learn nltk</code></pre>
+
+# How to Use
+Load the e-commerce dataset into a pandas DataFrame:
 
 python
 Copy code
