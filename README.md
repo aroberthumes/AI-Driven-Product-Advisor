@@ -13,8 +13,9 @@ The AI-Driven Product Advisor is a sophisticated recommendation system built for
 # Installation
 Clone the repository:
 
+<pre lang="no-highlight"><code>```git clone https://github.com/your-username/AI-Driven-Product-Advisor.git```</code></pre>
 Copy code
-<git clone https://github.com/your-username/AI-Driven-Product-Advisor.git>
+
 
 # Dependencies
 Ensure you have the following Python packages installed:
